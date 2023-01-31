@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/innerPage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        input[type='radio'],
+        input[type='checkbox'] , a {
+            accent-color: red;
+        }
+
+        #login {
+            width: 138px;
+            height: 45px;
+            background: #C8242F 0% 0% no-repeat padding-box;
+            border-radius: 23px;
+            border-style: none;
+            color: #FFFFFF;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        #secondary{
+            width: 138px;
+            height: 45px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border-radius: 23px;
+            border-color:#C8242F;
+            color: #C8242F;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        .tabs{
+            font: normal normal normal 15px/20px Roboto;
+            letter-spacing: 0px;
+            color: #ADADAD;
+            padding-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="height: 80px; position: relative;">
+        <img id="menubar" src="images/menu-bar.svg">
+        <img id="logo" src="/images/logo.svg">
+        <img id="search" src="images/search-icon.svg">
+        <input id="searchbar" type="search" placeholder="search">
+        <img id="notify" src="images/notification-icon.svg">
+        <img id="myProfile" src="images/profile.png">
+        <span style=" font: normal normal normal 16px/21px Roboto;letter-spacing: 0px;
+         position: absolute;color: #000000; margin-top: 28px; height: 25px; margin-left: 25px;"><b>John Doe
+            </b></span>
+        <img style="width: 25px; margin-left: 100px;position: fixed; margin-top:20px; "
+            src="images/select-downward.svg">
+    </nav>
+    <div class="Container">
+        <div class="row">
+            <div class="sidebar col-xs-2">
+
+
+                <li>
+                    <ul style="margin-top: 20px;">
+                        <img class="sideimg" src="images/dashboard-active.svg">
+                        <span class="sidetext" style="color: #C8242F;"><b>Dashboard</b></span>
+                    </ul>
+                    <ul>
+                        <img class="sideimg" src="images/graph-default.svg">
+                        <span class="sidetext"><b>Analysis</b></span>
+
+                    </ul>
+                    <ul>
+                        <img class="sideimg" src="/images/inbox-default.svg">
+                        <span class="sidetext"><b>inbox</b></span>
+                    </ul>
+                    <ul>
+                        <img class="sideimg" src="images/clock-default.svg">
+                        <span class="sidetext"><b>History</b></span>
+
+                    </ul>
+
+                    <ul>
+                        <img class="sideimg" src="/images/user-default.svg">
+                        <span class="sidetext"><b>Users</b></span>
+                    </ul>
+                    <ul>
+                        <img class="sideimg" src="/images/maintenance-default.svg">
+                        <span class="sidetext"><b>Maintenance</b></span>
+                    </ul>
+                    <ul>
+                        <img class="sideimg" src="/images/setting-default.svg">
+                        <span class="sidetext"><b>Setting</b></span>
+
+                    </ul>
+                </li>
+            </div>
+            <div class="RightD " style=" background-color: #FAFAFA;  ">
+                <h1 style="margin-left:48px ; margin-top:40px"><b>Analysis</b></h1>
+                <div class="formdiv"
+                    style="background-color: white;margin-left: 45px;margin-right: 45px; height: 1500px;">
+                    <h3 style="margin-left: 30px; padding-top: 30px;">One column</h3>
+                    <input style="width: 1410px;
+                    height: 49px;
+                    border: 1px solid #ADADAD;
+                    border-radius: 5px;
+                    margin-bottom: 21px;
+                    margin-left: 30px; " class="inpField" type="text" placeholder="Name">
+                    <input style="width: 1410px;
+                     height: 49px;
+                     border: 1px solid #ADADAD;
+                     border-radius: 5px;
+                     margin-bottom: 21px;
+                     margin-left: 30px; " class="inpField" type="text" placeholder="Dropdown">
+                    <textarea rows="50" ; style="width: 1410px;
+                     height: 119px;
+                     
+                     border: 1px solid #ADADAD;
+                     border-radius: 5px;
+                     margin-bottom: 21px;
+                     margin-left: 30px; " placeholder="Multiple line"></textarea>
+                    <h3 style="margin-left: 30px; padding-top: 30px;">Two column</h3>
+                    <div class="Container" style="margin-left: 45px;">
+                        <div class="row">
+                            <input class="col-xs-5" placeholder="Name" style=" width: 675px;
+                             height: 49px;
+                             border: 1px solid #ADADAD;
+                             border-radius: 5px;">
+                            <input class="col-xs-5" placeholder="Johndoe" style=" width: 675px;
+                             height: 49px;
+                             border: 1px solid #ADADAD;
+                             border-radius: 5px;
+                             margin-left: 45px;">
+                        </div>
+                        <div class="row" style="margin-top: 30px;">
+                            <input class="col-xs-5" placeholder="Name" style=" width: 675px;
+                            height: 49px;
+                            border: 1px solid #ADADAD;
+                            border-radius: 5px;">
+                            <input class="col-xs-5" placeholder="Johndoe" style=" width: 675px;
+                            height: 49px;
+                            border: 1px solid #ADADAD;
+                            border-radius: 5px;
+                            margin-left: 45px;">
+                        </div>
+                        <h3 style=" padding-top: 30px; margin-left: -20px;">Three column</h3>
+                        <div class="row" style="margin-top: 10px;">
+
+                            <fieldset class="col-xs-3" style=" 
+                            margin-top: -7px;
+                            width: 443px;
+                            height: 59px;
+                            border: 1px solid #ADADAD;
+                            border-radius: 5px;
+                            border-color: red;">
+                                <legend style="border-style: none; font-size: 15px; width:40px; color: #ADADAD;">Focus
+                                </legend>
+                            </fieldset>
+                            <input type="password" class="col-xs-3" style=" 
+                             width: 443px;
+                            height: 49px;
+                            border: 1px solid #ADADAD;
+                            border-radius: 5px;
+                            margin-left: 45px;">
+
+                            <input type="text" class="col-xs-3" placeholder="john doe" style=" 
+                              width: 443px;
+                             height: 49px;
+                             border: 1px solid #ADADAD;
+                             border-radius: 5px;
+                             margin-left: 45px;border-style: dashed;" disabled>
+                        </div>
+                        <h3 style=" padding-top: 30px; margin-left: -20px;">Four column</h3>
+                        <div class="row" style="margin-top: 10px;">
+                            <input class="col-xs-2" type="text" placeholder="UI Designer" style=" 
+                            width: 322px;
+                            height: 49px;
+                            border: 1px solid #ADADAD;
+                            border-radius: 5px;
+                            border-color: red;">
+                            <input type="password" class="col-xs-2" placeholder="name" style=" 
+                             width: 322px;
+                            height: 49px;
+                            border: 1px solid #ADADAD;
+                            border-radius: 5px;
+                            margin-left: 45px;">
+
+                            <input type="text" class="col-xs-2" placeholder="john doe" style=" 
+                              width: 322px;
+                             height: 49px;
+                             border: 1px solid #ADADAD;
+                             border-radius: 5px;
+                             margin-left: 45px;border-style: dashed;" disabled>
+                            <input type="text" class="col-xs-2" placeholder="select" style=" 
+                             width: 322px;
+                            height: 49px;
+                            border: 1px solid #ADADAD;
+                            border-radius: 5px;
+                            margin-left: 45px;">
+                        </div>
+                        <span style="width: 84px;
+                        height: 16px;
+                        text-align: left;
+                        font: normal normal normal 12px/16px Roboto;
+                        letter-spacing: 0px;
+                        color: #FF3B3B;
+                        opacity: 1;">Enter valid data</span>
+                        <span style="width: 158px;
+                        height: 16px;
+                        text-align: left;
+                        font: normal normal normal 12px/16px Roboto;
+                        letter-spacing: 0px;
+                        color: #ADADAD;
+                        margin-left: 300px;">Enter your full name as per ID</span>
+                    </div>
+
+                    <h3 style=" padding-top: 30px; margin-left: 20px;">Other Design elements</h3>
+                    <h4 style=" padding-top: 30px; margin-left: 20px;">File upload</h4>
+                    <label style="width: 124px;
+                    margin-left: 10px;
+                    text-align: center;
+                    height: 36px;
+                    border: 1px solid #C8242F;
+                    border-radius: 18px;
+                    opacity: 1;"><input style="display: none;" type="file" id="fileupload">Upload</label>
+                    <span> No item selected</span>
+                    <h4 style=" padding-top: 30px; margin-left: 20px;">Radio Button</h4>
+                    <input type="radio" id="option1" name="options" value="option1" style="margin-left: 30px;">
+                      <label for="option1"
+                        style="color: #3E3E3E; font: normal normal normal 15px/20px Roboto;">Option1</label>
+                      <input type="radio" id="option2" name="options" value="option2" checked>
+                      <label for="option2" style="color: #3E3E3E; font: normal normal normal 15px/20px Roboto;
+                  ">Option2 </label><br>
+                    <h4 style=" padding-top: 30px; margin-left: 20px;">Checkbox</h4>
+
+
+                    <input style="margin-left: 25px;" type="checkbox" id="Option1" name="Option1" value="Option1">
+                    <label for="Option1"
+                        style="color: #3E3E3E; font: normal normal normal 15px/20px Roboto;">Option1</label>
+                    <input type="checkbox" id="Option2" name="Option2" value="Car">
+                    <label for="Option2" style="color: #3E3E3E; font: normal normal normal 15px/20px Roboto;">
+                        Option2</label><br>
+                    <h4 style=" padding-top: 30px; margin-left: 20px;">Snackbar</h4>
+                    <div class="Container" style="margin-left: 45px;">
+                        <div class="row">
+                            <div class="col-xs-5" placeholder="Name" style=" width: 675px;
+                             height: 49px;
+                             border: 1px solid #FF3535;
+                             border-radius: 5px;">
+                                <img style="width: 25px; height: 25px; margin-left: 10px; margin-top: 10px;"
+                                    src="/images/error-icon.svg">
+                                <span style="color:  #FF3535 ; margin-top:15px ;">This is an error message</span>
+                            </div>
+                            <div class="col-xs-5" placeholder="Johndoe" style=" width: 675px;
+                             height: 49px;
+                             border: 1px solid#00B9E1;
+                             border-radius: 5px;
+                             margin-left: 45px;">
+                                <img style="width: 25px; height: 25px; margin-left: 10px; margin-top: 10px;"
+                                    src="/images/info-icon.svg">
+                                <span style="color:  #00B9E1 ; margin-top:15px ;">This is an informatin message</span>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 30px;">
+                            <div class="col-xs-5" style=" width: 675px;
+                            display: flex;
+                            height: 49px;
+                            border: 1px solid #FFA800;
+                            border-radius: 5px;">
+                                <img style="width: 25px; height: 25px; margin-left: 10px; margin-top: 10px;"
+                                    src="/images/warning-icon.svg">
+                                <span style="color: #FFA800 ; margin-top:15px ;">This is a warning message</span>
+                            </div>
+                            <div class="col-xs-5" style=" width: 675px;
+                            height: 49px;
+                            border: 1px solid #00AF27;
+                            border-radius: 5px;
+                            margin-left: 45px;">
+                                <img style="width: 25px; height: 25px; margin-left: 10px; margin-top: 10px;"
+                                    src="/images/success-icon.svg">
+                                <span style="color:  #00AF27; ; margin-top:15px ;">This is a success message</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 style=" padding-top: 30px; margin-left: 20px;">Call to action</h4>
+                    <button id="login" type="submit">Primary</button>
+                    <button id="secondary" type="submit">Secondary</button>
+                    <h4 style=" padding-top: 30px; margin-left: 20px; ">Tabs</h4>
+                    <br>
+                    <span ><a style="margin-left: 20px; text-decoration: underline; color:#C8242F ;" class="tabs" href="#" >Tab 1</a></span>
+                    <span><a class="tabs" href="#">Tab 2</a></span>
+                    <span><a class="tabs" href="#">Tab 3</a></span>
+                    <hr>
+                    <p style="margin-left: 30px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                </div>
+            </div>
+</body>
+
+</html>
